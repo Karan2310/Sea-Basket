@@ -23,6 +23,7 @@ const Navbar = () => {
                     </ul>
                     <button>Login</button>
                 </div>
+                <button className='d-block d-md-none'>Login</button>
             </div>
         </nav>
     )
