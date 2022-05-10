@@ -2,6 +2,9 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Categories from './components/Categories/Categories';
 import FAQ from './components/FAQ/FAQ';
+import Read from './components/Read/Read';
+import Topics_miss from './components/Topics_miss/Topics_miss';
+import Footer from './components/Footer/Footer';
 import hero from './assets/hero_img.png';
 import thumbnail from './assets/Video_thumbnail.png'
 import playIcon from './assets/play_circle_filled_white_24px.png'
@@ -28,6 +31,9 @@ function App() {
         </div>
       </div>
       <FAQ />
+      <Read />
+      <Topics_miss />
+      <Footer />
     </div>
   );
 }
