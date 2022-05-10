@@ -1,0 +1,28 @@
+.accordion-item:last-of-type .accordion-button.collapsed {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 17px;
+  padding: 1.5rem 1rem;
+  font-weight: 600;
+}
+
+.accordion-header {
+  background-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  color: #000;
+  font-weight: 600;
+}
+
+.accordion-flush .accordion-item {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}

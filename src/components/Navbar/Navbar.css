@@ -1,0 +1,31 @@
+nav .logo img {
+  width: 150px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+nav ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #0e79bd;
+  font-weight: 700;
+}
+
+nav button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0e79bd;
+  padding: 0.5rem 2.5rem;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+nav button:hover {
+  cursor: pointer;
+  background-color: #0b6ca8;
+}
