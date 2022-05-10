@@ -1,7 +1,7 @@
 # Sea Basket
 React based website for a sea-food company
 - The categories section is fetched from firestore database
-- Rest all the data is hard coded
+- Rest all the data is hardcoded
 - Responsive for almost all the screens
 
 ## Site Deployed
