@@ -18,7 +18,7 @@ const Read = () => {
     ]
     return (
         <>
-            <div className="container-fluid read my-5">
+            <div className="container-fluid read my-5 px-4">
                 <h3 className='text-center mt-5'>HAVE A READ</h3>
                 {read_data.map((data, index) => {
                     const { title, description } = data
